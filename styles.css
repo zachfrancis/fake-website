@@ -1,16 +1,21 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #1f2937;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 8px 64px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 64px;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
 }
@@ -23,6 +28,39 @@ body {
 
 .links a {
   font-size: 18px;
-  color: #f9faf8;
+  color: #e5e7eb;
   text-decoration: none;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.top .text {
+  color: #f9faf8;
+  margin: 16px 0px;
+}
+
+.top button {
+  color: #f9faf8;
+  font-weight: 700;
+  background-color: #3882f6;
+  border-radius: 6px;
+  border: 0;
+  padding: 8px 24px;
+}
+
+.top img {
+  width: 420px;
+  height: auto;
 }
